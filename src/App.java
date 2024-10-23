@@ -11,6 +11,8 @@ public class App {
         if (ika >= 16){
             System.out.println("Saat ajaa kevaria");
         }
+
+        
     } else if (ika == 18) {
         {
             System.out.println(" Olet täysi-ikäinen ja saat ajaa autoa");
@@ -18,6 +20,14 @@ public class App {
     }
     else if (ika >= 65) 
     {
+
+        System.out.println("Olet eläkeläinen");
+    }
+    else
+    {
+        System.out.println("Olet aikuinen");
+    }
+
     
     
     
